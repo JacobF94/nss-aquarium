@@ -1,3 +1,10 @@
+/* please ignore the ugly colors i want to make each element clearly visible :^) */
+header {
+    display: flex;
+    flex-grow: 2;
+    align-content: center;
+    border: 2px solid rgb(33, 182, 150);
+}
 h1 {
     color: mediumseagreen;
     text-align: center;
@@ -5,47 +12,44 @@ h1 {
 }
 main {
     display: flex;
-    background-color: black;
     flex-wrap: wrap;
 }
-.content {
+.content-left {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
-    margin: 3px;
+    margin-right: 2.5em;
     flex: 3;
+    border: 3px solid rgb(219, 172, 17);
 }
-.horizontal {
-    margin: 5px;
-    padding: 5px;
-    font-size: xx-large;
-    background-color: orangered;
-}
-.horizontal_2 {
-    margin: 5px;
-    padding: 5px;
-    font-size: xx-large;
-    background-color: darkgreen;
-}
-.horizontal_3{
-    margin: 5px;
-    padding: 5px;
-    font-size: xx-large;
-    background-color: crimson;
-}
-.vertical {
+.content-right {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
     flex: 1;
     font-size: xx-large;
     background-color: cornflowerblue;
+    border: 3px solid rgb(219, 172, 17);
 }
-.unit {
-    background-color:chocolate;
-    text-align: center;
+.fishlist {
+    border: 3px solid rgb(8, 53, 8);
+    display: flex;
+    flex-wrap: wrap;
 }
-.unit_2{
-background-color: blue;
-text-align: center;
+.card {
+    padding: 1em;
+    margin: 0.5em;
+}
+.fish {
+    border: 3px solid silver;
+    display: flex;
+}
+.quote {
+    border: 3px solid goldenrod;
+    display: flex;
+}
+.location {
+    border: 3px solid lightcoral;
+    display: flex;
+}
+.tank {
+    border: 3px solid dodgerblue;
 }
