@@ -2,8 +2,10 @@
 header {
     display: flex;
     flex-grow: 2;
-    align-content: center;
+    align-items: center;
     border: 2px solid rgb(33, 182, 150);
+    justify-content: center;
+    background-color: salmon;
 }
 h1 {
     color: mediumseagreen;
@@ -13,6 +15,7 @@ h1 {
 main {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2em;
 }
 .content-left {
     display: flex;
@@ -20,6 +23,8 @@ main {
     margin-right: 2.5em;
     flex: 3;
     border: 3px solid rgb(219, 172, 17);
+    justify-content: space-evenly;
+    background-color: rgb(235, 205, 109);
 }
 .content-right {
     display: flex;
@@ -30,26 +35,33 @@ main {
     border: 3px solid rgb(219, 172, 17);
 }
 .fishlist {
-    border: 3px solid rgb(8, 53, 8);
+    border: 3px solid darkslategray;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    justify-content: space-evenly;
+}
+.fish {
+    border: 3px solid silver;
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    border: 3px solid goldenrod;
+    display: flex;
+    justify-content: center;
+}
+.location {
+    border: 3px solid lightcoral;
+    display: flex;
+    justify-content: center;
 }
 .card {
     padding: 1em;
     margin: 0.5em;
 }
-.fish {
-    border: 3px solid silver;
-    display: flex;
-}
-.quote {
-    border: 3px solid goldenrod;
-    display: flex;
-}
-.location {
-    border: 3px solid lightcoral;
-    display: flex;
-}
 .tank {
-    border: 3px solid dodgerblue;
-}
+    border: 3px solid rgb(27, 33, 39);
+    justify-content: center;
+    }
