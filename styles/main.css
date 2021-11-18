@@ -5,7 +5,7 @@ header {
     align-items: center;
     border: 2px solid rgb(33, 182, 150);
     justify-content: center;
-    background-color: salmon;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 195, 255));
 }
 h1 {
     color: mediumseagreen;
